@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.add{
+    transition: scale .2s ease-in-out;
+    color: crimson;
+}
+
+.add:hover{
+    scale: 1.2;
+    color: rgb(184, 15, 15);
+}
+.update{
+    transition: scale .2s ease-in-out;
+}
+
+.update:hover{
+    scale: 1.2;
+}
+.delete{
+    transition: scale .2s ease-in-out;
+    
+}
+
+.delete:hover{
+    scale: 1.2;
+    background-color: rgb(201, 13, 13);
+}
