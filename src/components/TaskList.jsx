@@ -23,7 +23,7 @@ useEffect(() => {
   return (
    <>
    <header className="flex justify-evenly items-center bg-blue-500 text-white p-3 ">
-      <h1 className=" text-2xl font-bold md:text-4xl">Tasks.com</h1>
+      <h1 className=" text-2xl font-bold md:text-4xl">Tasksme.com</h1>
       <div>
         <h2 className="text-2xl">{task.length} tasks</h2>
       </div>
